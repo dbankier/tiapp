@@ -1,0 +1,17 @@
+{
+  "name": "tiapp",
+  "version": "0.0.1",
+  "description": "library to locate and read tiapp.xml",
+  "main": "./lib/tiapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/tiapp",
+  "repository": "https://github.com/dbankier/tiapp",
+  "author": "David Bankier",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "~0.2.8",
+    "underscore": "~1.5.2"
+  }
+}

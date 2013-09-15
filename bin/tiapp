@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var tiapp = require("../lib/tiapp");
+
+if (process.argv.length === 2) {
+  tiapp.find(process.cwd(), function(err, tiapp) {
+    process.stdout.write(tiapp ? JSON.stringify(tiapp.obj) : err);
+  });
+}
