@@ -1,6 +1,6 @@
 {
   "name": "tiapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "library to locate and read tiapp.xml",
   "main": "./lib/tiapp.js",
   "scripts": {
